@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
+import com.example.Docker
 
 def call(String tag) {
-    new Docker(this).dockerPush(tag)
+    return new Docker(this).dockerPush(tag)
 }

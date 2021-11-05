@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+package com.example
 
 class Maven implements Serializable {
     def script
